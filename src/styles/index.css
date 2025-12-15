@@ -6,4 +6,65 @@
     visibility: visible;
 }
 
+body {
+  background: #f5f5f5;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
 
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.card {
+  width: 600px;
+  max-width: 100%;
+}
+
+.card-body {
+  background: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-body input {
+  width: 100%;
+  padding: 20px;
+  font-size: 24px;
+  font-weight: 300;
+  border: none;
+  border-bottom: 1px solid #e0e0e0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.card-body input::placeholder {
+  color: #d0d0d0;
+}
+
+.divInput {
+  border-bottom: 1px solid #e0e0e0;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.divInput p {
+  flex: 1;
+  font-size: 24px;
+  font-weight: 300;
+  margin: 0;
+}
+
+
+
+.card-body > p {
+  padding: 15px 20px;
+  color: #999;
+  font-size: 14px;
+  margin: 0;
+  border-top: 1px solid #e0e0e0;
+}
