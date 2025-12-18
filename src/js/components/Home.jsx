@@ -5,6 +5,8 @@ import Input from "./Input";
 
 //create your first component
 const Home = () => {
+
+
 	return (
 		<div className="text-center">
 			<Input />
